@@ -1,0 +1,97 @@
+.main-section{
+    display: flex;
+    justify-content: space-around;
+    height: 700px;
+    align-items: center;
+
+}
+.img-cont{
+    width: 40%;
+    height: 400px;
+}
+.img-cont img{
+    width: 100%;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.form-cont{
+    background-color: blue;
+    width: 50%;
+    height: 500px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+form{
+    width: 100%;
+    background: #fff;
+    text-align: center;
+    height: 500px;
+}
+ .form-h{
+    text-transform:uppercase;
+    text-align: center;
+    color: #00a400;
+    font-family: sans-serif;
+    font-weight: 600;
+    padding-top: 30px;
+  
+}
+.control1{
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+.control1 input{
+    border-style:none ;
+    border-bottom-style: groove ;
+    border-bottom: 2px solid #00a400;
+    padding: 30px 30px 0px 3px;
+    width: 40%;
+}
+.control1 input:focus{
+    outline: none;
+}
+.control{
+    margin-bottom: 20px;
+}
+.control input{
+    border-style:none ;
+    border-bottom-style: groove ;
+    border-bottom: 2px solid #00a400;
+    padding: 30px 30px 0px 30px;
+    width: 80%;
+}
+.control label{
+    color: #00a400;
+    position: relative;
+    background: #000;
+
+
+}
+.control label i{
+    position: absolute;
+    bottom: -2px;
+    margin-left: 10px;
+}
+.control input:focus{
+    outline: none;
+}
+select{
+    border: 1px solid green;
+    margin-bottom: 30px;
+    display: block;
+    margin-left: 30%;
+}
+.buybtn{
+    background: #00a400;
+    border: #00a400;
+    width: 150px;
+    border-radius: 5px;
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: bold;
+    height: 30px;
+
+}
+.buybtn:hover{
+background-color: #00a400be;
+}
