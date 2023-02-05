@@ -5,21 +5,46 @@
     align-items: center;
 
 }
+@media only screen and (max-width: 786px) {
+    .main-section {
+    }
+  }
 .img-cont{
     width: 40%;
-    height: 400px;
+    height: 500px;
 }
+.img-cont p{
+    color: #00a400;
+    font-family: poppins;
+    font-weight: 400;
+    font-size: 20px;
+    padding: 10px 30px 10px 60px;
+    letter-spacing: 1px;
+
+}
+@media only screen and (max-width: 786px) {
+    .img-cont {
+      background-color: lightblue;
+      display: none;
+    }
+  }
 .img-cont img{
     width: 100%;
     border-radius: 50%;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
+
 .form-cont{
     background-color: blue;
     width: 50%;
     height: 500px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
+@media only screen and (max-width: 786px) {
+    .form-cont {
+        width: 70%;
+    }
+  }
 form{
     width: 100%;
     background: #fff;
@@ -49,6 +74,7 @@ form{
 }
 .control1 input:focus{
     outline: none;
+    border-bottom: 2px solid #2091EB;
 }
 .control{
     margin-bottom: 20px;
@@ -72,19 +98,21 @@ form{
     bottom: -2px;
     margin-left: 10px;
 }
-.control input:focus{
+.control input:focus {
     outline: none;
+    border-bottom: 2px solid #2091EB;
 }
 select{
     border: 1px solid green;
     margin-bottom: 30px;
     display: block;
-    margin-left: 30%;
+    width: 50%;
+    margin-left: 25%;
 }
 .buybtn{
     background: #00a400;
     border: #00a400;
-    width: 150px;
+    width: 30%;
     border-radius: 5px;
     color: #fff;
     font-family: sans-serif;
